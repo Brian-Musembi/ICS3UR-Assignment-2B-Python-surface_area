@@ -15,8 +15,8 @@ def main():
     print("")
 
     # input
-    base = int(input("Enter the base length (mm): "))
-    height = int(input("Enter the height (mm): "))
+    base = int(input("Enter the base length (m): "))
+    height = int(input("Enter the height (m): "))
 
     # process
     surface_area = (base * base) + (base + base) * math.sqrt(((
@@ -24,7 +24,7 @@ def main():
     print("")
 
     # output
-    print("The surface area is {} mm²".format(surface_area))
+    print("The surface area is {} m²".format(surface_area))
 
 
 if __name__ == "__main__":
